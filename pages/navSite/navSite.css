@@ -1,0 +1,8 @@
+.categoryButtons{
+    border: 5px solid red;
+}
+.categoryButtons img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}

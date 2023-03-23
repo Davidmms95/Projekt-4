@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbbc57aa-fc0a-4a0b-9f7e-49d0a403accc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/elements/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index/loginFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/navSite/navSite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/navSite/navSite.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navSite/navSite.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -47,6 +52,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679568844857</updated>
-      <workItem from="1679568846165" duration="1195000" />
+      <workItem from="1679568846165" duration="6419000" />
     </task>
     <servers />
   </component>
