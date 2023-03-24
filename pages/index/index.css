@@ -15,16 +15,18 @@ html, body {
     align-items: center;
     font-size: 25px;
 }
+
 .formContainer img {
     height: 200px;
     width: 200px;
     object-fit: cover;
 }
+
 .formContainerWithErrorMsg{
     border: 5px solid blue;
     position: relative;
     top: -10%;
-
+    padding: 20px;
 }
 
 .inputFields input{
@@ -32,4 +34,18 @@ html, body {
     height: 20px;
     font-size: 30px;
     margin-top: 40px;
+}
+
+.otherLoginItems{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+#inputSubmit .loginButton{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 50%;
+    height: 40px;
+    text-align: center;
 }
