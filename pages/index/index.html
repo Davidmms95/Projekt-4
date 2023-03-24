@@ -5,30 +5,34 @@
     <title>Title</title>
     <link rel="stylesheet" href="index.css">
     <script src="loginFunction.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 <div class="formContainer">
-    <div>
-        <h1>Log ind</h1>
-        <p>Log ind med din e-mail.</p>
+    <div class="formContainerWithErrorMsg"> <!--What else to call this box-->
+        <img class="indexLogo" src="https://www.rover.com/blog/wp-content/uploads/2019/06/cat-2934720_1920.jpg" alt="itslearning logo">
         <!--dont refresh page when click on submit-->
         <form onsubmit="return false">
             <div class="formButtons">
-                <div id="inputMail">
-                    <input type="email" id="userMail" name="userMail" placeholder="E-mail" style="padding: 12px 20px" oninput="setErrorMessage('')">
+                <div class="inputFields">
+                    <div id="inputMail">
+                        <input type="email" id="userMail" name="userMail" placeholder="E-mail"
+                               style="padding: 12px 20px" oninput="setErrorMessage('')">
+                    </div>
+                    <div id="inputPassword">
+                        <input type="password" id="userPassword" name="userPassword" placeholder="Adgangskode"
+                               style="padding: 12px 20px" oninput="setErrorMessage('')">
+                    </div>
                 </div>
-                <div id="inputPassword">
-                    <input type="password" id="userPassword" name="userPassword" placeholder="Adgangskode" style="padding: 12px 20px" oninput="setErrorMessage('')">
-                </div>
-
                 <label for="rememberMe">Gem log ind</label>
                 <input type="checkbox" id="rememberMe">
 
                 <a href="#">Glemt adgangskode</a>
 
                 <div id="inputSubmit">
-                    <input type="submit" value="Log ind" class="loginButton" onclick="submitLoginForm()" style="padding: 12px 20px">
+                    <input type="submit" value="Log ind" class="loginButton" onclick="submitLoginForm()"
+                           style="padding: 12px 20px">
                 </div>
             </div>
 

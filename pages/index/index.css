@@ -1,12 +1,35 @@
 html, body {
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
+
 .formContainer {
+    border: 5px solid red;
     width: 100%;
     height: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
+}
+.formContainer img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.formContainerWithErrorMsg{
+    border: 5px solid blue;
+    position: relative;
+    top: -10%;
+
+}
+
+.inputFields input{
+    width: 60%;
+    height: 20px;
+    font-size: 30px;
+    margin-top: 40px;
 }
