@@ -33,11 +33,11 @@ function submitLoginForm() {
         const user = findUserByMail(userMail);
         // Check whether a user was found at all
         if (user === null){
-            setErrorMessage("Vi kan ikke logge dig ind. E-mail og/eller adgangskode er ikke korrekt.");
+            setErrorMessage("E-mail og/eller adgangskode er ikke korrekt.");
         } else {
             // A user was found. Check if passwords match
             if (userPassword !== user.password){
-                setErrorMessage("Vi kan ikke logge dig ind. E-mail og/eller adgangskode er ikke korrekt.");
+                setErrorMessage("E-mail og/eller adgangskode er ikke korrekt.");
             } else {
                 // Passwords match; Login: success
                 location.href = '../navSite/navSite.html';
@@ -53,7 +53,7 @@ function setErrorMessage(errorMessage) {
         document.getElementById("errorMessageContainer").innerHTML = "";
     } else {
         // Otherwise, set error message box content to a generic headline and a custom paragraph containing the content of the parameter
-        document.getElementById("errorMessageContainer").innerHTML = "<h1>Der opstod en fejl</h1><p>" + errorMessage + "</p>";
+        document.getElementById("errorMessageContainer").innerHTML = "<p>" + errorMessage + "</p>";
     }
 }
 
