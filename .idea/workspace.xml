@@ -20,6 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbbc57aa-fc0a-4a0b-9f7e-49d0a403accc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/calendarSite/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/calendarSite/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/noticeboardSite/noticeboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/noticeboardSite/noticeboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ressourcesSite/ressources.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ressourcesSite/ressources.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/navSite/navSite.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navSite/navSite.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/navSite/navSite.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navSite/navSite.html" afterDir="false" />
@@ -32,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -69,7 +75,7 @@
       <updated>1679568844857</updated>
       <workItem from="1679568846165" duration="6454000" />
       <workItem from="1679648843293" duration="6076000" />
-      <workItem from="1679830432295" duration="4974000" />
+      <workItem from="1679830432295" duration="12245000" />
     </task>
     <servers />
   </component>
