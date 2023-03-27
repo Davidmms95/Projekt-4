@@ -20,6 +20,15 @@ body, html{
     text-align: center;
 }
 
+.homeworkContainerNavSite p{
+    margin: 5px;
+    padding: 0;
+}
+
+.homeworkContainerTurnIn {
+    margin-top: 20px;
+}
+
 .categoryButtonContainer{
     /*border: 2px solid blue;*/
     width: 85%;
