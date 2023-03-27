@@ -4,10 +4,13 @@
     text-decoration: none;
     list-style: none;
   }
+  body{
+    min-height: 100vh;
+  }
   footer {
     background: bisque;
-    height: 80px;
-    width: 100%;
+    position: sticky;
+    top: 100%;
   }
   footer ul {
     color: black;
