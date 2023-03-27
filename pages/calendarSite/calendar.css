@@ -1,10 +1,21 @@
-body, html{
+body, html {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
 }
+main{
+    width: 100%;
+    height: 100%;
+    border: 5px solid green;
+    box-sizing: border-box;
+    text-align: center;
+}
 
-.calendarTableContainer{
-width: 100%;
+.calendarTableContainer {
+    border: 5px solid red;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+
 }
