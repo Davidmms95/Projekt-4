@@ -16,7 +16,7 @@ nav ul {
   display: flex;
   justify-content: space-around; 
 }
-img{
+header img{
   width: 42px; 
   height: 42px;
 }

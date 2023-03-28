@@ -23,11 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbbc57aa-fc0a-4a0b-9f7e-49d0a403accc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/elements/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/footer/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elements/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/LoadContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/LoadContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/calendarSite/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/calendarSite/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/navSite/navSite.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navSite/navSite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/noticeboardSite/noticeboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/noticeboardSite/noticeboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/ressourcesSite/ressources.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ressourcesSite/ressources.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +87,7 @@
       <workItem from="1679906533102" duration="6051000" />
       <workItem from="1679988932209" duration="962000" />
       <workItem from="1679995995839" duration="2510000" />
-      <workItem from="1679998694152" duration="1424000" />
+      <workItem from="1679998694152" duration="3388000" />
     </task>
     <servers />
   </component>
@@ -98,15 +104,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1053" y="460" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1679568906434">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1053" y="460" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1679568906434" />
-    <state x="1226" y="0" width="1009" height="1470" key="search.everywhere.popup" timestamp="1679831364946">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1226" y="0" width="1009" height="1470" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1679831364946" />
   </component>
 </project>
