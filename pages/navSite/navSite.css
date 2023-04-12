@@ -12,11 +12,17 @@
     border-radius: 10px;
     width: 90%;
     margin: 40px auto;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .workContainerNavSite p{
     margin: 5px;
     padding: 0;
+}
+
+.workContainerHeadings {
+    font-size: 25px;
 }
 
 .categoryButtonContainer{
