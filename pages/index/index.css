@@ -14,7 +14,7 @@ main{
     display: flex;
     text-align: center;
     justify-content: center;
-    align-items: center; /*IF this doesnt align vertically, check if parent has a height*/
+    align-items: center; /*If this doesnt align vertically, check if parent has a height*/
 }
 
 .formContainer img {
@@ -54,12 +54,16 @@ main{
 }
 
 .otherLoginItemsRemember{
-    border: 2px solid green;
-    display: flex;
-    justify-content: space-evenly;
+    /*border: 2px solid green;*/
     font-size: 20px;
     margin: 20px 0;
     padding: 10px;
+    color: white;
+}
+
+.otherLoginItemsRemember input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
 }
 
 /*.otherLoginItemsPadding{*/
@@ -72,6 +76,7 @@ main{
     border-radius: 20px;
     width: 100px;
     box-sizing : content-box;
+    border: none;
 }
 
 #errorMessageContainer h4,
