@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  footer {
+    background: bisque;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  footer ul {
+    color: black;
+    font-size: 20px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; 
+  }
+  footer img{
+    width: 42px;
+    height: 43px;
+  }
