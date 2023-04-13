@@ -1,0 +1,23 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mode {
+    float:none;
+}
+.change {
+    cursor: pointer;
+    border: 3px solid coral;
+    border-radius: 30%;
+    width: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}
