@@ -1,0 +1,51 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ressourcePageContainer p {
+    margin: 0;
+    padding: 0;
+}
+
+.ressourcePageContainer {
+    /*border: 5px solid red;*/
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ressourceDropDownFilterContainer{
+    border: 2px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ressourceDropDownIcon {
+    margin: 0 10px;
+}
+
+.ressourceCategoriesContainer{
+    /*border: 5px solid blue;*/
+    box-sizing: border-box;
+}
+
+.ressourceCategoriesItems {
+    border: 2px solid black;
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.ressourceCategoriesItemsDropDown {
+    margin: 0 10px;
+}

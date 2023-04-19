@@ -3,47 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="index.css">
-    <script src="loginFunction.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="LoadContent.js"></script>
+    <script src="loginFunction.js" defer></script>
 </head>
 
 <body>
-<div class="formContainer">
-    <div class="formContainerWithErrorMsg"> <!--What else to call this box-->
-        <img class="indexLogo" src="https://www.rover.com/blog/wp-content/uploads/2019/06/cat-2934720_1920.jpg"
-             alt="itslearning logo">
-        <!--dont refresh page when click on submit-->
-        <form onsubmit="return false">
-            <div class="formButtons">
-                <div class="inputFields">
-                    <div id="inputMail">
-                        <input type="email" id="userMail" name="userMail" placeholder="E-mail:"
-                               style="padding: 12px 20px" oninput="setErrorMessage('')">
+<main>
+    <div class="formContainer">
+        <div class="formContainerWithErrorMsg"> <!--What else to call this box-->
+            <img class="indexLogo" src="../../imgs/indexImgs/logo1.png"
+                 alt="itslearning logo">
+            <!--dont refresh page when click on submit-->
+            <form onsubmit="return false">
+                <div class="formButtons">
+                    <div class="inputFields">
+                        <div id="inputMail">
+                            <input type="email" id="userMail" class="inputFieldsStyling" name="userMail" placeholder="E-mail:"
+                                   style="padding: 12px 20px" oninput="setErrorMessage('')">
+                        </div>
+                        <div id="inputPassword">
+                            <input type="password" id="userPassword" class="inputFieldsStyling" name="userPassword" placeholder="Adgangskode:"
+                                   style="padding: 12px 20px" oninput="setErrorMessage('')">
+                            <div class="forgotPasswordContainer">
+                                <a href="#">Glemt adgangskode?</a>
+                            </div>
+                        </div>
                     </div>
-                    <div id="inputPassword">
-                        <input type="password" id="userPassword" name="userPassword" placeholder="Adgangskode:"
-                               style="padding: 12px 20px" oninput="setErrorMessage('')">
+                    <div class="otherLoginItems">
+                        <div class="otherLoginItemsRemember">
+                            <label for="rememberMe">Gem log-in</label>
+                            <input type="checkbox" id="rememberMe">
+                        </div>
+                    </div>
+                    <div id="inputSubmit">
+                        <input type="submit" value="Log ind" class="loginButton" onclick="submitLoginForm()"
+                               style="padding: 12px 20px">
                     </div>
                 </div>
-                <div class="otherLoginItems">
-                    <div class="otherLoginItemsPadding">
-                        <label for="rememberMe">Gem log ind</label>
-                        <input type="checkbox" id="rememberMe">
-                    </div>
-                    <div class="otherLoginItemsPadding">
-                        <a href="#">Glemt adgangskode</a>
-                    </div>
-                </div>
-                <div id="inputSubmit">
-                    <input type="submit" value="Log ind" class="loginButton" onclick="submitLoginForm()"
-                           style="padding: 12px 20px">
-                </div>
-            </div>
 
-        </form>
-        <div id="errorMessageContainer"></div>
+            </form>
+            <div id="errorMessageContainer"></div>
+        </div>
     </div>
-</div>
+</main>
 </body>
 </html>
