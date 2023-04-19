@@ -34,10 +34,6 @@ main{
     background-color: lightgray;
 }
 
-.calendarClassesContainer{
-    /*border: 5px solid blue;*/
-}
-
 .workshopContainer {
     border: 2px solid black;
     box-sizing: border-box;
