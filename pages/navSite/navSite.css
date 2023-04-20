@@ -52,3 +52,56 @@
     margin: 10px 10px 0 10px;
     object-fit: contain;
 }
+
+.afleveringskasse {
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #504D67;
+     border-radius: 10px;
+  }
+
+.aflevering-tekst {
+color: white;
+font-size: 20px;
+margin-left: 5px;
+}
+
+#afl-kasse {
+     width: 25px;
+     height: 25px;
+     background-color: white;
+     border: 2px solid black;
+     margin-left: 5px;
+     margin-top: 5px;
+     margin-right: 10px;
+     display: inline-block;
+     vertical-align: middle;
+     cursor: pointer;
+}
+
+#afl-text {
+             display: inline-block;
+             vertical-align: middle;
+             color: white;
+           }
+
+#afl-kasse:hover {
+      background-color: #504D67;
+    }
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 130px;
+      height: 50px;
+      background-color: white;
+      border: 2px solid black;
+      padding: 10px;
+      text-align: center;
+    }

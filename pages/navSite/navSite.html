@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../elements/footer/footer.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="../index/LoadContent.js"></script>
+    <script src="navJava.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
 </head>
 <body>
@@ -24,8 +25,16 @@
                     <div class="assignmentsDueContainer">
                         <div></div>
                         <div></div>
-                        <p>opgave 1 - 01 - 04 - 2023</p>
-                        <p>opgave 1 - 01 - 04 - 2023</p>
+                        <span id="afl-text">
+                        <div id="afl-kasse" onclick="showMessage()"></div>    29/3 - Pentool opgave
+                        <div id="popup-message" class="popup">
+                            <button onclick="hideMessage()">Du har afleveret</button>
+                            </div>
+                            <br>
+                             <div id="afl-kasse"></div> 30/3 - Typografi
+                            <br>
+                               <div id="afl-kasse"></div> 06/4 - Design Sprint 4
+                          </div>
                     </div>
                 </div>
             </div>
@@ -36,7 +45,12 @@
                     <p class="workContainerHeadings">Lektier</p>
                 </div>
                 <div class="homeworkDueContainer">
-                    <p>opgave 1 - 01 - 04 - 2023</p>
+                  <span id="afl-text">
+              30/3 - Læs side 13-17 i PDF 'Typografi'
+              <br><br>
+              12/4 - Lav en burgermenu til timerne med kode
+              <br><br>
+              15/4 - Find dagens 'Carl-Mar Møller' på itslearning
                 </div>
             </div>
         </div>
