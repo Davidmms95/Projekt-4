@@ -23,8 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbbc57aa-fc0a-4a0b-9f7e-49d0a403accc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/elements/header/headerNFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elements/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/header/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/calendarSite/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/calendarSite/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/LoadContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/LoadContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/navSite/navSite.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navSite/navSite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/noticeboardSite/noticeboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/noticeboardSite/noticeboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +81,7 @@
       <workItem from="1679906533102" duration="9404000" />
       <workItem from="1681285375552" duration="11035000" />
       <workItem from="1681676251297" duration="1138000" />
-      <workItem from="1681717312306" duration="3672000" />
+      <workItem from="1681717312306" duration="6194000" />
     </task>
     <servers />
   </component>
