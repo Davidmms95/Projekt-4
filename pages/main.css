@@ -9,3 +9,9 @@ body, html{
 p {
     color: white;
 }
+.navbar{
+    z-index: 1;
+}
+.hamburger {
+    z-index: 1;
+}

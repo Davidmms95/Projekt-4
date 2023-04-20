@@ -47,6 +47,7 @@ a{
 .hamburger{
   display: none;
   cursor: pointer;
+  z-index: 1;
 }
 
 .bar{
