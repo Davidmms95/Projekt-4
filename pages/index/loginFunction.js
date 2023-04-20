@@ -5,7 +5,11 @@ const users = [{
     {
     mail: "isa@mail.dk",
     password: "isa",
-    }
+    },
+    {
+    mail: "david@mail.dk",
+    password: "david",
+}
 ];
 
 const loginContainer = document.getElementById("loginContainer");
