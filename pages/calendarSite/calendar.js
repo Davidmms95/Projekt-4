@@ -1,2 +1,2 @@
-indsæt funktion fra hjem
+// indsæt funktion fra hjem
 
