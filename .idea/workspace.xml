@@ -22,16 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbc57aa-fc0a-4a0b-9f7e-49d0a403accc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/elements/header/headerNFooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/header/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/calendarSite/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/calendarSite/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/LoadContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/LoadContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/navSite/navSite.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navSite/navSite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/noticeboardSite/noticeboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/noticeboardSite/noticeboard.html" afterDir="false" />
-    </list>
+    <list default="true" id="bbbc57aa-fc0a-4a0b-9f7e-49d0a403accc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
