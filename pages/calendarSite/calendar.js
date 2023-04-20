@@ -1,10 +1,10 @@
-//Funktion - Ændring af farver på klik af datoer/ugedagene?
+//Funktion 
 
 // Variabel 
 
-// Array - [....?]
+// Array 
 
-// Loop - 
+// Loop 
 
 // Objekt 
 
