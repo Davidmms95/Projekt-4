@@ -1,7 +1,7 @@
 .search-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin: 20px 0 1rem 0;
 }
 
 .search-container input[type="text"] {
@@ -54,6 +54,9 @@
   font-size: 1.2rem;
 }
 
+#output a{
+  color: black;
+}
 
 /* Objekter i listen */
 li {
