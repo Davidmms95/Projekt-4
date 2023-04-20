@@ -1,0 +1,19 @@
+.mode {
+    float:none;
+    background-color: #f2f2f2;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    border: 3px solid coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.change {
+    cursor: pointer;
+    border-radius: 30%;
+}
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}
