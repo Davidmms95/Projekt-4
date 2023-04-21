@@ -107,3 +107,11 @@
     padding: 10px;
     text-align: center;
 }
+
+.hidden {
+visibility: hidden;
+}
+button {
+background-color: white;
+color: black;
+}
